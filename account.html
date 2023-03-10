@@ -6,7 +6,7 @@
     <title>Account</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
+  <body class="bg-prova">
     <nav class="navbar navbar-expand-lg navbar-dark nav-account px-5">
       <div class="container-fluid px-0">
           <a class="navbar-brand" href="#">
@@ -14,51 +14,54 @@
           </a>
       </div>
     </nav>
-    <div class=" container-fluid bg-prova text-white px-5 d-flex justify-content-center ">
+    <div class=" container-fluid bg-prova text-white pb-7 pt-5 px-5 d-flex justify-content-center ">
       <div class="main">
-        <h1>Edit Profile</h1>
-        <div class="separatore"></div>
+        <h1 class="word-space">Edit Profile</h1>
+        <div class="separatore mt-1"></div>
         <div class=" d-flex">
           <div class=" me-4">
             <div class="img">
               
             </div>
           </div>
-          <div class=" destra">
+          <div class=" destra pe-5">
 
             <div class="px-3 py-2 mb-2 bg-secondary text-white mb-4">Strive Student</div>
             <p class="mb-1">Language:</p>
-            <div class="btn-group border border-1 border-white" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-prova pe-4 ">English</button>
-              <button class="btn btn-prova  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="btn-group border rounded-0 border-1 border-white" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-nero-puro pe-4 rounded-0">English</button>
+              <button class="btn btn-nero-puro  btn-sm dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               </button>
-              <ul class="dropdown-menu">
-                <li>Italiano</li>
-                <li>Francese</li>
+              <ul class="dropdown-menu bg-prova border-white py-0 rounded-0">
+                <li class=""> <button class="border-0 rounded-0 w-100 btn btn-outline-light" type="button"> Italiano</button></li>
+                <li class=""> <button class="border-0 rounded-0 w-100 btn btn-outline-light" type="button"> Francese</button></li>
+                <li class=""> <button class="border-0 rounded-0 w-100 btn btn-outline-light" type="button"> Spagnolo</button></li>
+                <li class=""> <button class="border-0 rounded-0 w-100 btn btn-outline-light" type="button"> Tedesco</button></li>
+                <li class=""> <button class="border-0 rounded-0 w-100 btn btn-outline-light" type="button"> Russo </button></li>
               </ul>
             </div>
 
             <div class="separatore"></div>
             <div>
-              <p>Maturity Settings :</p>
-              <div class="bg-nero fw-bold text-white px-3 py-1"><p class="m-0"> ALL MATURITY RATINGS</p></div>
+              <p class="fs-5">Maturity Settings :</p>
+              <div class="bg-nero fw-bold text-white px-2 py-1 maturity mb-3"><p class=" maturity m-0"> ALL MATURITY RATINGS</p></div>
               <p>Show titles of all maturity ratings for this profile</p>
-              <button>  EDIT</button>
+              <button type="button" class="btn btn-outline-light rounded-0 px-4 mb-2">  EDIT</button>
 
             </div>
 
             <div class="separatore"></div>
 
-            <h3>Autoplay controls</h3>
+            <h5>Autoplay controls</h5>
 
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <div class="form-check mt-1">
+              <input class="form-check-input " type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
                 Autoplay next episode in a series on all devices.
               </label>
               
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
               <label class="form-check-label" for="defaultCheck2">
                 Autoplay previews while browsing on all devices
@@ -66,7 +69,13 @@
               
             </div>
             </div>
-
+        
+          </div>
+          <div class="separatore"></div>
+          <div>
+            <button type="button" class="btn btn-light fw-bold px-4  border-secondary text-secondary rounded-0"> <a href="index.html" class="text-secondary">SAVE</a></button>
+            <button type="button" class="btn btn-outline-light  fw-bold word-space px-4 mx-3 border-secondary text-secondary rounded-0">CANCEL</button>
+            <button type="button" class="btn btn-outline-light fw-bold px-4 word-space border-secondary text-secondary rounded-0">DELETE PROFILE</button>
           </div>
         </div>
       </div>

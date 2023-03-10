@@ -32,7 +32,7 @@ body{
 .img{
     display: block;
     background-image: url("../assets/avatar.png");
-    width: 130px;
+    width: 115px;
     height: 115px;
     background-size: cover;
 }
@@ -41,3 +41,12 @@ body{
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     margin-block: 20px;
 }
+
+.maturity{
+    width: max-content;
+}
+
+.word-space{
+    letter-spacing: 3px;
+}
+
