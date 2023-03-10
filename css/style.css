@@ -12017,4 +12017,12 @@ body .nav-account {
 
 .account-setting a {
   text-decoration: none;
+}
+
+.hd {
+  height: 19px;
+}
+.hd span {
+  position: relative;
+  top: -5px;
 }/*# sourceMappingURL=style.css.map */
