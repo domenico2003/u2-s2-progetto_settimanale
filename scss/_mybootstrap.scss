@@ -1,8 +1,27 @@
 @import "./bootstrap/functions";
 
+$netflix-bg-color:#141414;
 
+$h7-font-size:    0.8rem;            
 @import "./bootstrap/variables";
 
+$custom-color:(
+    "prova":$netflix-bg-color,
+    "nero":rgba(46, 46, 46, 0)
+);
+
+$theme-colors:map-merge($theme-colors,$custom-color);
+
+$custom-size:(
+    7:$h7-font-size
+);
+$font-sizes:map-merge($font-sizes , $custom-size );
+
+$custom-spacings:(
+    6:$spacer * 8
+);
+
+$spacers:map-merge($spacers, $custom-spacings );
 
 @import "./bootstrap/maps";
 @import "./bootstrap/mixins";

@@ -1,1 +1,43 @@
 @import "./mybootstrap";
+
+.profilo{
+    height: 40px;
+    width: 40px;
+    background-image: url("../assets/avatar.png");
+    background-size: cover;
+}
+
+
+
+footer{
+    a{
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+    }  
+    .my-col{
+        max-width: 250px;
+     
+    }
+    
+}
+
+body{
+.nav-account{
+    background: linear-gradient(180deg,black,$netflix-bg-color) ;
+
+    
+}
+
+}
+.img{
+    display: block;
+    background-image: url("../assets/avatar.png");
+    width: 130px;
+    height: 115px;
+    background-size: cover;
+}
+
+.separatore{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-block: 20px;
+}
