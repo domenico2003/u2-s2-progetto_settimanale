@@ -2,13 +2,16 @@
 
 $netflix-bg-color:#141414;
 $dark-black:black;
-$h7-font-size:    0.8rem;            
+$h7-font-size:    0.8rem;  
+       
 @import "./bootstrap/variables";
 
 $custom-color:(
     "prova":$netflix-bg-color,
     "nero":rgba(46, 46, 46, 0),
-    "nero-puro":$dark-black
+    "nero-puro":$dark-black,
+    "grigio": $gray-200,
+    "grigio-1":$gray-600
 );
 
 $theme-colors:map-merge($theme-colors,$custom-color);

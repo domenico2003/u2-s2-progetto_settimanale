@@ -42,6 +42,11 @@ body{
     margin-block: 20px;
 }
 
+.separatore-settings{
+    border-block: 2px solid rgba(21, 21, 21, 0.219);
+    margin-block: 20px;
+}
+
 .maturity{
     width: max-content;
 }
@@ -50,3 +55,12 @@ body{
     letter-spacing: 3px;
 }
 
+.word-space-1{
+    letter-spacing: 1px;
+}
+
+.account-setting{
+    a{
+        text-decoration: none;
+    }
+}
